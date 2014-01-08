@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div itemscope itemtype="http://schema.org/MusicRecording">
+            <meta itemprop="url" content="the song page url"/>
+            <span itemprop="name">[Song Title]</span>
+            <span itemprop="duration" content="PT4M5S"><time itemprop="duration" datetime="PT4M5S"><meta itemprop="duration" content="PT4M5S"/>[04:55](span, time, or meta?)</time></span>
+            <span itemprop="interactionCount"><meta itemprop="interactionCount" content="UserPlays:928"/>[928]</span>
+            <span itemprop="interactionCount"><meta itemprop="interactionCount" content="UserComments:22"/>[22]</span>
+            <span itemprop="interactionCount"><meta itemprop="interactionCount" content="UserDownloads:33"/>[33]</span>
+            <span itemprop="interactionCount"><meta itemprop="interactionCount" content="UserLikes:444"/>[444]</span>
+            <span itemprop="audio">[=>Play(audio in google and audio object in jamendo. see below)]</span>
+            <span itemprop="audio" itemscope itemtype="http://schema.org/AudioObject"/>
+                <span itemprop="transcript">lyrics?</span>
+                <span itemprop="uploadDate" content="">a year ago?</span>
+                <span itemprop="encodingFormat">mp3</span>
+                <span itemprop="embedUrl">http://awtrari.ca/122</span>
+                <span itemprop="duration" datetime="PT4M5S">4:05</span>
+                <span itemprop="contentSize">5.6MB</span>
+                <span itemprop="bitrate">128 kbps</span>
+            </span>
+            <span itemprop="inAlbum" itemscope itemtype="http://schema.org/MusicAlbum"/>
+                <span itemprop="name">[Album Name](required by google, so default is the song name as a text not an album itemtype)</span>
+            </span>
+            <span itemprop="byArtist" itemscope itemtype="http://schema.org/MusicGroup"/>
+                <span itemprop="name">[Artist Name]</span>     
+            </span>
+            <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"/>
+                <span itemprop="ratingValue">4</span>
+                <span itemprop="ratingCount">250</span>
+                <meta itemprop="bestRating" content="5"/>
+                <meta itemprop="worstRating" content="1"/>
+            </span>
+            <link itemprop="thumbnailUrl" href="http://...awtarika img url...com/TSK2Nb6h7ig/hqdefault.jpg" />
+            <span itemprop="image" content="http://...awtarika img url...com/TSK2Nb6h7ig/hqdefault.jpg">link to image page?</span>
+            <meta itemprop="keywords" content="pop, piano, hashtags, tags" />
+            <span itemprop="genre">[genre or color]</span>
+            <span itemprop="description">yada yda</span>
+            <span itemprop="dateCreated" datetime="year format">2003</span>
+            <span itemprop="comment" itemscope itemtype="http://schema.org/UserComments"/>
+                <span itemprop="commentText">yadayda</span>
+                <span itemprop="commentTime" datetime="datetime">last year? continuously changing</span>
+                <span itemprop="creator" itemscope itemtype="http://schema.org/Person"/>
+                    <span itemprop="name">person or org?</span>
+                </span>
+                <span itemprop="replyToUrl">it's a URL, not that important now</span>
+            </span>
+            
+        </div>
+    </body>
+</html>
